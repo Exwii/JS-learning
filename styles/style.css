@@ -1,0 +1,53 @@
+html {
+    background-color: #252525;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.far {
+    color: white;
+    background-color: transparent;
+    font-size: 6rem;
+    margin: 1rem;
+}
+
+.btn_game {
+    border-radius: 25px;
+    background: rgb(37,37,37);
+    background: linear-gradient(177deg, rgba(37,37,37,1) 0%, rgba(78,75,75,1) 59%);
+    text-decoration: none;
+    border: none;
+    margin: 1rem;
+    width: 140px
+}
+
+#empate {
+    color: whitesmoke;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    
+
+}
+
+#home {
+    background-color: white;
+    border-radius: 20px;
+}
+

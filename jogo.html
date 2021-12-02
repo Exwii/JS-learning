@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thé">
+    <meta name="description" content="site para aprendizado de HTML, CSS e JS">
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/6231f33eba.js" crossorigin="anonymous"></script>
+    <title>Table</title>
+</head>
+
+<body>
+    
+    <div id="point">
+        <h1>Pontuação do Jogador: <span id="scorePlayer">0</span></h1>
+        <h1>Pontuação do Computador: <span id="scoreComputer">0</span></h1>
+    </div>
+    
+    <div  id="game">
+        <button onclick="rock()" class="btn_game"> <i class="far fa-hand-rock"></i> </button>
+        <button onclick="paper()" class="btn_game"> <i class="far fa-hand-paper"></i> </button>
+        <button onclick="scissors()" class="btn_game"> <i class="far fa-hand-scissors"></i> </button>
+    </div>
+
+    <div id="plays">
+        <h2>Você Jogou: <span id="playerChoice"></span></h2>
+        <h2>Computador Jogou: <span id="computerChoice"></span></h2>
+    </div>
+
+    <h2 id="empate"> Empate! </h2>
+
+    <button id="home"> <a href="index.html"> Home </a></button>
+<script src="scripts/main.js"></script>
+</body>
+</html>
