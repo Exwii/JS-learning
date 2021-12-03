@@ -90,7 +90,7 @@ function reload() {
     computerChoice = document.getElementById('computerChoice').innerHTML = computerChoice
     if(draw === true){
         document.getElementById("empate").style.display = 'block';
-        console.log(draw)
+        
     }
 
 } 
