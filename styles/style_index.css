@@ -176,3 +176,19 @@ h3 {
     background-image: linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
     
 }
+
+#health {
+    position: absolute;
+    margin: 32rem 27rem 2rem
+}
+
+progress {
+    color: red;
+    font-size: .6em;
+    line-height: 1.9em;
+    text-indent: .5em;
+    width: 20em;
+    height: 1.5em;
+    border: 1px solid black;
+    background: red;
+  }
