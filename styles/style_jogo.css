@@ -25,6 +25,10 @@ h2 {
     margin: 1rem;
 }
 
+button {
+    cursor: pointer;
+}
+
 .btn_game {
     border-radius: 25px;
     background: rgb(37,37,37);
@@ -42,8 +46,6 @@ h2 {
 
 a {
     text-decoration: none;
-    
-
 }
 
 #home {
