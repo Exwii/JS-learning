@@ -5,19 +5,30 @@ html {
 a {
     margin-top: 1rem;
     text-decoration: none;
-    background-color: white;
     border-radius: 20px;
+    color: #2167ff;
 }
 
 h1 {
     color: #FFF;
     font-size: 2rem;
-    margin-left: 25rem;
+    text-align: center;
 }
 
 p {
     color: #FFF;
     text-align: center;
+    margin: 1rem;
+}
+button{
+    border-style: none;
+    padding: 0.3rem;
+    background-color: #fff;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 
 
