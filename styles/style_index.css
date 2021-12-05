@@ -12,23 +12,29 @@ a {
 h1 {
     color: #FFF;
     font-size: 2rem;
-    text-align: center;
+    margin-left: 25rem;
 }
 
-h3 {
+p {
     color: #FFF;
     text-align: center;
 }
 
-#text_box {
-    font-size: larger;
-    color: rgb(128, 0, 255);
-    display: block;
-    margin-block-start: 8rem;
-    margin-block-end: 5rem;
-    margin-inline-start: 4rem;
-    margin-inline-end: 90rem;
-}
+
+
+progress[value]::-webkit-progress-value {
+    -webkit-appearance: none;
+    appearance: none;
+    
+    
+    width: 200px;
+    height: 12px;
+    background-color: red;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) inset;
+  }
+
+
 
 #sol {
     display: block;
